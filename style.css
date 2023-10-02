@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: sans-serif;
+}
+.nav{
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.831);
+    align-items: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 13rem;    
+}
+.icon_ref a{
+    float: right;
+}
+.img{
+    width: 100%;
+}
+
+.menu ul{
+    height: 60px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: space-evenly;
+}
+.menu li{
+    display: inline;
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.heading h3{
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    font-weight: 700;
+}
+.heading h4{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.heading p{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.backimg{
+    height: 400px;
+    background-image: url('background.png');
+    background-repeat: repeat;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.left{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+.left h3{
+    font-weight: 800;
+    padding-top: 18%;
+    text-transform: uppercase;
+}
+.left p{
+    width: 80%;
+}
+.row h2{
+    color: red;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.panel-3-left{
+    margin-top: 10%;
+    padding-top: 5%;
+    height: 450px;
+    
+}
+.panel-3-left h3{
+    color: red;
+    width: 100%;
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 2%;
+    padding-left: 30%;
+    text-transform: uppercase;
+}
+.panel-3-left p{
+    padding-left: 30%;
+    text-align: left;
+}
+.panel-3-right{
+    margin-top: 10%;
+    height: 300px;
+}
+.notes{
+    display: flex;
+    margin-top: 8%;
+}
+.notes p{
+    padding: 20px;
+    margin-right: 5%;
+    text-align: left;
+    font-weight: 600;
+}
+.panel-4 h3{
+    font-size: 25px;
+    color: red;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.panel-4 h5{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.redimg {
+    height: 250px;
+    background-image: url('redimg.png');
+    background-repeat: repeat;
+}
+.panel-5{
+    margin-top: 35%;
+    margin-bottom: 15%;
+}
+.panel-6{
+    height: 281px;
+}
+.panel-6-in{
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 15%;
+}
+.panel-6-in h3{
+    font-size: 22px;
+    color: red;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.panel-6-in p{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 550;
+}
